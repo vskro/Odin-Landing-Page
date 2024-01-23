@@ -1,0 +1,63 @@
+/* Body Basics */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Header Styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 200px;
+    margin: 0;
+    background-color: #1f2937;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.headerlogo {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.headerlogo a:link, a:hover, a:visited {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.navlinks a:link, a:visited {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    color: #819DC5;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Intro Styles */

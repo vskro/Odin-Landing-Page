@@ -1,4 +1,4 @@
-/* Body Basics */
+/* Basics */
 
 body {
     display: flex;
@@ -6,13 +6,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+    font-family: Roboto, sans-serif;
 }
 
 /* Header Styles */
-.navbar {
+#navbar {
     position: fixed;
     width: 100%;
     top: 0;
+    max-height: 10%;
 }
 
 header {
@@ -23,7 +25,6 @@ header {
     margin: 0;
     background-color: #1f2937;
     color: white;
-    font-family: Roboto, sans-serif;
 }
 
 .headerlogo {
@@ -60,4 +61,39 @@ header {
     font-weight: bold;
     text-decoration: none;
 }
+
 /* Intro Styles */
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 200px 100px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    overflow: wrap;
+}
+
+.introtext h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    color: #f9faf8;
+}
+
+.introtext p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.introimg {
+    display: flex;
+    background-color: gray;
+    width: 50%;
+    height: relative;
+}
